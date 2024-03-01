@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Star Wars | Jogo da memória</title>
+  <link rel="shortcut icon" href="./assets/icon.svg" />
+  <link rel="stylesheet" type="text/css" href="./sass/app.css" />
+  <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+  <script defer src="./scripts/script.js"></script>
+</head>
+<body>
+  <div class="app-wrapper">
+    <section id="controllers">
+      <div class="wrapper">
+        <p>tempo: <span id="timer">00:00</span></p>
+        <p>flips: <span id="flips">00</span></p>
+      </div>
+    </section>
+    <section id="cards-wrapper">
+      <div class="wrapper">
+        
+      </div>
+    </section>
+    <section id="pop-up" data-state="opened">
+      <div class="wrapper">
+        <h2>
+          use a força sabiamente, <br />
+          jovem padawan
+        </h2>
+        <div class="controller">
+          <button type="button" id="play">iniciar</button>
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
+      <div class="wrapper">
+        <div>
+          <p>aluno (padawan): menezes, aristofany</p>
+          <p>disciplina: programação para internet</p>
+          <p>professor (jedi): marcelo figueiredo barbosa júnior</p>
+          <p>ifrn - campus santa cruz/rn</p>
+        </div>
+      </div>
+      <p class="copyright">© Todos os direitos reservados</p>
+    </footer>
+  </div>
+  <canvas id="confetti"></canvas>
+</body>
+</html>
