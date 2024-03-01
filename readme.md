@@ -37,8 +37,8 @@ Dev Dependencies:
 Clone the project and access the project folder
 
 ```bash
-$ git clone https://github.com/aristofany-herderson/advanced-scientific-calculator
-$ cd advanced-scientific-calculator
+$ git clone https://github.com/aristo-ifrn/memory-card-game
+$ cd memory-card-game
 ```
 
 To run it, open ```index.html```
